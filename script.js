@@ -3,9 +3,7 @@ const scroll = new LocomotiveScroll({
     smooth: true
 });
 
-window.addEventListener('scroll', ()=>{
-  console.log("hello scrolling");
-})
+
 // dets gives the details 
 // 
 var timeout = 0;
@@ -99,8 +97,8 @@ document.querySelectorAll(".elem").forEach(function (elem) {
   
     elem.addEventListener("mousemove", function (dets) {
       var diff = dets.clientY - elem.getBoundingClientRect().top;
-      diffrot = dets.clientX - rotate;
-      rotate = dets.clientX;
+      diffrot  = dets.clientX - rotate;
+      rotate   = dets.clientX;
       gsap.to(elem.querySelector("img"), {
         opacity: 1,
         ease: Power3,

@@ -11,14 +11,13 @@ html,body{
     height: 100%;
 }
 #mini-small-follower{
-   transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
     position: absolute;
     z-index: 9999;
     border-radius: 50%;
     width: 10px;
     height: 10px;
-   background-color: #fff;
-   
+    background-color: black; 
 }
 .bounding{
     width: fit-content;
@@ -31,7 +30,7 @@ html,body{
     position: relative;
     width: 100%;
     height: 100vh;
-    background-color: #C3B59F;
+    background-color: #f2f0ee;
 }
 
 #nav{
@@ -48,7 +47,7 @@ html,body{
 }
 
 #main{
-    background-color: #C3B59F;
+    background-color: #f2f0ee;
 }
 /* #heading{
     background-color: red;
@@ -127,7 +126,7 @@ html,body{
 
 #secondSection{
     width: 100%;
-    background-color: #C3B59F;
+    background-color: #f2f0ee;
     padding-right: 10vw;
     padding-top: 200px; 
 }
@@ -165,7 +164,7 @@ html,body{
 }
 
 #aboutdiv{
-    background-color: #C3B59F;
+    background-color: #f2f0ee;
     padding: 10vw 20vw;
     display: flex;
     align-items: center;
@@ -203,12 +202,12 @@ html,body{
     color: black;
     font-size: 1rem;
     text-decoration: none;
-    background-color: #C3B59F;
+    background-color: #f2f0ee;
 
 }
 
 #subscribe{
-    background-color: #C3B59F;
+    background-color: #f2f0ee;
     color: #fff;
     padding: 10px 25px;
     padding-bottom: 120px;
@@ -228,7 +227,7 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #C3B59F;
+    background-color: #f2f0ee;
     padding: 8px 20px;
     font-weight: lighter;
 }
@@ -329,7 +328,7 @@ html,body{
     height: 100vh;
     position: absolute;
     top: 0;
-    background-color: #657153;
+    background-color: #0d100a;
     /* background-color: #A0AF84; */
 }
 .start-overlay h1{
@@ -337,4 +336,5 @@ html,body{
     letter-spacing: 3px;
     font-size: 3rem;
     scale: 1.2;
+    color: white;
 }
